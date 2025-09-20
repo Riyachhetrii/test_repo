@@ -3,6 +3,10 @@ def find_odd_even(numbers):
     even = [num for num in numbers if num % 2 == 0]
     return {'odd': odd, 'even': even}
 
+def greet(name: str) -> str:
+    """Return a greeting message for the given name."""
+    return f"Hello, {name}! Welcome to the project."
+
 # Example usage:
 if __name__ == "__main__":
     sample_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
